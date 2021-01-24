@@ -1,0 +1,20 @@
+{
+    "name": "Baidu360Sogo-DarkMode",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "百度&360&搜狗的深色模式",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.baidu.com/*",
+                "https://sp0.baidu.com/*",
+                "https://www.so.com/*",
+                "https://www.sogo.com/*",
+                "https://www.sogou.com/*"
+            ],
+            "js": [
+                "dark.js"
+            ]
+        }
+    ]
+}
