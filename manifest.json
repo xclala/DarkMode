@@ -2,15 +2,11 @@
     "name": "DarkMode",
     "manifest_version": 2,
     "version": "1.0",
-    "description": "一些网站的深色模式",
+    "description": "网站的深色模式",
     "content_scripts": [
         {
             "matches": [
-                "https://www.baidu.com/*",
-                "https://sp0.baidu.com/*",
-                "https://www.so.com/*",
-                "https://www.sogo.com/*",
-                "https://www.sogou.com/*"
+                "<all_urls>"
             ],
             "js": [
                 "dark.js"
